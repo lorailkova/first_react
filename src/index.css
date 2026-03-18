@@ -9,21 +9,23 @@ h1 {
     margin-top: 30px;
 }
 
-header{
+nav{
+ padding: 16px 8px; 
+  border: 1px solid #000; 
+  border-radius: 16px;
+  margin: 16px;
   display: flex;
   align-items: center;
 }
 
 .nav-image{
   width: 55px;
+  display: flex;
 }
 
-.nav-list{
-    list-style: none;
-    display: flex;
-}
-
-.nav-list-item{
-    margin-left: 40px;
-    font-size: 130%;
+.nav-text{
+  color: #00d8ff;
+  font-family: "Inter";
+  font-size: 220%;
+  margin: 20px;
 }
